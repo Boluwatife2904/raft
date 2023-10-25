@@ -30,7 +30,7 @@ const end = (element: any) => {
 	<div class="accordion border-b border-solid border-mine-shaft pb-[1.4rem] md:pb-[2.2rem] cursor-pointer" :class="{ 'accordion--active': isActive }">
 		<div class="accordion__header flex justify-between pb-[1.8rem]" @click="$emit('toggle-accordion', accordion.id)">
 			<h4 class="text-white font-medium md:text-[2.4rem]">{{ accordion.question }}</h4>
-			<button class="w-[2.4rem] h-[2.4rem] transition-all" :class="{ 'rotate-180': isActive }">
+			<button class="w-[2.4rem] h-[2.4rem] block shrink-0 transition-all" :class="{ 'rotate-180': isActive }">
 				<BaseIcon name="chevron-down" />
 			</button>
 		</div>

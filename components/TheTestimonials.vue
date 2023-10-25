@@ -34,7 +34,7 @@ const scrollTestimonialsSection = (direction: string) => {
 	<div class="bg-emerald py-[3.2rem] md:py-[10rem] px-[2.4rem] md:px-[7.2rem]">
 		<div class="container">
 			<div class="flex flex-col gap-[6.4rem] md:gap-[10.4rem]">
-				<h4 class="text-center text-cod-gray text-[3.2rem] md:text-[6rem] lg:text-[7.6rem] max-w-[77.6rem] mx-auto">Join over 3 million members</h4>
+				<h4 class="text-center text-cod-gray text-[3.2rem] md:text-[6rem] lg:text-[7.6rem] max-w-[30rem] md:max-w-[77.6rem] mx-auto">Join over 3 million members</h4>
 				<div class="flex flex-col gap-[4rem]">
 					<ul ref="testimonialsContainer" class="flex gap-[2.4rem] overflow-y-scroll no-scrollbar scroll-smooth">
 						<li

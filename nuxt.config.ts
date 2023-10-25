@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 				{ hid: "og:title", name: "og:title", content: "Raft" },
 				{ hid: "twitter:title", name: "twitter:title", content: "Raft" },
 				{ hid: "og:site_name", name: "og:site_name", content: "Raft" },
-				{ hid: "og:url", name: "og:url", content: "https://audiophile-chi-indol.vercel.app/" },
+				{ hid: "og:url", name: "og:url", content: "https://raft-six.vercel.app/" },
 				{ hid: "og:type", name: "og:type", content: "website" },
 				{ hid: "og:image", name: "og:image", content: "https://res.cloudinary.com/juwon-tech/image/upload/v1698228041/Desktop_-_2_ccty2y.png" },
 				{ hid: "twitter:image", name: "twitter:image", content: "https://res.cloudinary.com/juwon-tech/image/upload/v1698228041/Desktop_-_2_ccty2y.png" },
@@ -39,5 +39,8 @@ export default defineNuxtConfig({
 	css: ["@/assets/scss/index.scss", "@/assets/scss/font.scss"],
 	tailwindcss: {
 		configPath: "~/tailwind.config.ts",
+	},
+	build: {
+		transpile: ["gsap"],
 	},
 });

@@ -16,5 +16,9 @@
     "sass": "^1.69.4",
     "vue": "^3.3.6",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "splitting": "^1.0.6"
   }
 }
