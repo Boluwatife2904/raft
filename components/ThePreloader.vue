@@ -21,6 +21,10 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.preloader {
+	z-index: 111;
+}
+
 span {
 	transform: translate(-50%, -50%);
 }
