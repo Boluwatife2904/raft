@@ -1,6 +1,10 @@
-# Nuxt 3 Minimal Starter
+# Raft
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[Live Site 🚀](raft-six.vercel.app)
+
+Design Inspiration - [Adeola](https://x.com/adeoladev/status/1703346972101357974?s=46)
+
+Built with 💚 and Nuxt.
 
 ## Setup
 
